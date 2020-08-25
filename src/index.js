@@ -97,6 +97,7 @@ let Index = class RestfulExpressServer {
         let { logger, PORT } = this;
         this.app.listen(PORT, () => {
             logger.info('Server in \'%s\' mode, %s is Ready', process.env.NODE_ENV, ('localhost:' + PORT));
+            console.log('server running on');
         });
     }
 

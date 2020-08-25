@@ -10,7 +10,7 @@ try{
     router.get('/ashok', (req, res) => {
         res.send({
             now: (Date.now()),
-            ravi: true
+            ashok: true
         })
     });
 

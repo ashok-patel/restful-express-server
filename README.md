@@ -2,9 +2,9 @@
 ---
 
 #### Usage
-+ Install package `npm install @ashok-patel/restful-express-server`
++ Install package `npm install @ashok.patel0609/restful-express-server`
 + Create an `.env` file with configs. (_list below_)
-+ Require `const {loadConfig, RestServer} = require('@ashok-patel/restful-express-server');`
++ Require `const {loadConfig, RestServer} = require('@ashok.patel0609/restful-express-server');`
 + Creating instance
 
 ```javascript
@@ -24,7 +24,7 @@ let router = server.router();
 router.get('/ashok', (req, res) => {
     res.send({
         now: (Date.now()),
-        ravi: true
+        ashok: true
     })
 });
 // binding any router
