@@ -2,7 +2,7 @@
 ---
 
 #### Usage
-+ Install package `npm install @ravisahu88/restful-express-server`
++ Install package `npm install @ashok-patel/restful-express-server`
 + Create an `.env` file with configs. (_list below_)
 + Require `const {loadConfig, RestServer} = require('@ravisahu88/restful-express-server');`
 + Creating instance
@@ -21,7 +21,7 @@ server.pre();
 let router = server.router();
 
 // bind some routes
-router.get('/ravi', (req, res) => {
+router.get('/ashok', (req, res) => {
     res.send({
         now: (Date.now()),
         ravi: true
