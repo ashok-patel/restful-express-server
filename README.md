@@ -4,7 +4,7 @@
 #### Usage
 + Install package `npm install @ashok-patel/restful-express-server`
 + Create an `.env` file with configs. (_list below_)
-+ Require `const {loadConfig, RestServer} = require('@ravisahu88/restful-express-server');`
++ Require `const {loadConfig, RestServer} = require('@ashok-patel/restful-express-server');`
 + Creating instance
 
 ```javascript
